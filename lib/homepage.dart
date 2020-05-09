@@ -112,28 +112,3 @@ class _HomePageState extends State<HomePage> {
     );
   }
 }
-
-// InkWell(
-//                     onTap: () {
-//                       setState(() {
-//                         BmiCalculator(
-//                           height: _heightcalculator.text.toString(),
-//                           weight: _weightcalculator.text.toString(),
-//                         );
-//                         bmiresult = bmiCalculator.calculateBmi();
-//                       });
-//                     },
-                    // child: Container(
-                    //   child: Padding(
-                    //     padding: const EdgeInsets.all(8.0),
-                    //     child: Text(
-                    //       "Calculate",
-                    //       style: TextStyle(fontSize: 25.0),
-                    //     ),
-                    //   ),
-                    //   decoration: BoxDecoration(
-                    //     borderRadius: BorderRadius.circular(5.0),
-                    //     color: Colors.pink,
-                    //   ),
-                    // ),
-//                   ),
